@@ -51,7 +51,6 @@ function play_Drum(event) {
 
 function buttonAnimation(button) {
   var currentClass = "." + button;
-  console.log(currentClass);
   var currentButton = document.querySelector(currentClass);
   currentButton.classList.add("pressed");
 
