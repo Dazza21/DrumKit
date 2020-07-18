@@ -14,7 +14,6 @@ document.addEventListener("keydown", function(event) {
 function play_Drum(event) {
   var audio;
   var playKey = event;
-  console.log(playKey);
   switch (playKey) {
     case 'w':
       audio = new Audio("sounds/tom-1.mp3");
